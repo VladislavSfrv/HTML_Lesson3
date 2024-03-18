@@ -9,13 +9,22 @@ body{
     scroll-behavior: smooth;
 }
 
-img{
+.sponserLogo{
     display: block;
     max-width: 100%;
 }
 
+.mainImg{
+    margin-left: 650px;
+}
+
+
+
 .header{
     padding: 40px 0px 100px 373px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 .navigation{
@@ -30,18 +39,24 @@ img{
 }
 
 .home{
-    font-weight: 600;
+    font-weight: 600px;
     font-size: 14px;
     color: #f25822;
 }
 
 .body{
     padding: 0px 373px 0px 373px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container{
-    max-width: 1146px;
+    width: 1145px;
+    height: 50px;
     margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between
 }
 
 .title{
@@ -79,5 +94,7 @@ img{
 }
 
 .footer{
-    padding: 100px 350px;
+    padding: 200px 0px 0px 0px;
+    width: 1920px;
+    height: 250px;
 }
